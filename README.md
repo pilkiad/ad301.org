@@ -6,9 +6,9 @@ Source code for my personal site. Uses a simple but very practical solution:
 
 1. All pages are markdown files in the `in/` directory
 2. We use [pandoc](https://pandoc.org/) to convert them to
-    2.1. `html` files for locally previewing
-    2.2. `php` files for online deployment
-    2.3. Replace all links to other `md` files by the respective target format
+    1. `html` files for locally previewing
+    2. `php` files for online deployment
+    3. Replace all links to other `md` files by the respective target format
 3. There is a single monolythic `template.html` file defining how all pages look
 4. We additionaly copy the `res/` directory which contains content which does
     not need to be converted, i.e. source code (lots of stuff hidden for
