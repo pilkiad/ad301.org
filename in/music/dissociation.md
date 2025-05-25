@@ -7,7 +7,7 @@ title: "Music - Dissociation"
     <source src="https://ad301.org/res/music/dissociation.aac" type="audio/aac">
     <p>
     Your browser does not support the audio element. You can
-    <a href="https://ad301.org./res/music/dissociation.aac">download
+    <a href="https://ad301.org/res/music/dissociation.mp3">download
     the audio file</a> instead.
     </p>
 </audio>
