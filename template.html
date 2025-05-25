@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+
+        <title>ad301 - $title$</title>
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+    </head>
+
+    <style>
+        *, *:before, *:after
+        {
+            box-sizing: inherit;
+        }
+
+        html
+        {
+            box-sizing: border-box;
+            background-image: url(https://ad301.org/res/imgs/space-background.jpg);
+            background-color: black;
+            font-family: "VT323";
+            font-size: large;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        hr
+        {
+            margin: 10px;
+        }
+
+        ul
+        {
+            list-style-type: square;
+        }
+
+        .inset, pre, code:not(.sourceCode)
+        {
+            background-color: #bfbfbf;
+            border-left: 2px outset white;
+            border-top: 2px outset white;
+            border-right: 2px outset black;
+            border-bottom: 2px outset black;
+        }
+
+        code:not(.sourceCode)
+        {
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        .content
+        {
+            max-width: 65ch;
+            min-width: 0ch;
+            margin: auto;
+            overflow-wrap: break-word;
+        }
+
+        .padder
+        {
+            padding: 10px;
+        }
+
+        .header
+        {
+            width: auto;
+            margin: 2px;
+
+            background: #00007b;
+            padding-left: 2px;
+            padding-right: 2px;
+        }
+
+        .header a
+        {
+            color: white;
+        }
+
+        .button
+        {
+            padding: 5px;
+            font-family: "VT323", monospace;
+            font-size: x-large;
+        }
+
+        .button:hover
+        {
+            background-color: white;
+        }
+
+        .ico
+        {
+            height: 2ch;
+        }
+
+        pre
+        {
+            background-color: #75715e;
+            color: #f8f8f2;
+        }
+
+        .st
+        {
+            color: #e6db74;
+        }
+
+        .kw, .cf
+        {
+            color: #f92672;
+        }
+
+        .im
+        {
+            color: #66d9ef;
+        }
+
+        .fl, .dv
+        {
+            color: #ae81ff;
+        }
+
+        .bu
+        {
+            color: #a6e22e;
+            font-style: italic;
+        }
+
+        input, textarea
+        {
+            width: 100%;
+            padding: 1ch;
+        }
+
+        textarea
+        {
+            resize: vertical;
+        }
+
+        blockquote
+        {
+            font-family: serif;
+        }
+
+        thead
+        {
+            color: white;
+        }
+
+        td
+        {
+            border: 1px solid black;
+        }
+    </style>
+
+    <body>
+        <div class="content inset">
+            <div class="header">
+                <a href="https://ad301.org">ad301</a><a> - $title$</a>
+            </div>
+
+            <div class="padder">
+
+            $body$
+
+            </div>
+
+            <hr>
+            <a href="#">Back to top</a>, <a href="https://github.com/pilkiad/ad301.org/tree/master">Source</a>
+        </div>
+    </body>
+</html>
+
