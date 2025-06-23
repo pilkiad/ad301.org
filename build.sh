@@ -18,7 +18,7 @@ else
     exit
 fi
 
-replacement_link_extension=".$output_format)"
+replacement_link_extension=".$output_format"
 
 echo "(1) Copying folder structure"
 rm -rf out/
@@ -43,7 +43,7 @@ do
 
     mkdir -p "../temp/$(dirname "${i}")"
 
-    sed "s/\.md)/$replacement_link_extension/g" "$i" > "../temp/${i}"
+    sed "s/\.md/$replacement_link_extension/g" "$i" > "../temp/${i}"
 
     filename_without_ext="${i%.md}"
 
