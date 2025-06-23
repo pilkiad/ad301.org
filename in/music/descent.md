@@ -11,3 +11,11 @@ title: "Music - Descent"
     the audio file</a> instead.
     </p>
 </audio>
+
+---
+
+**Comments**
+
+[Leave a comment](../comment.md?post=music_descent)
+
+<?php $post_name="music_descent"; include "../res/src/comments.php"; ?>
