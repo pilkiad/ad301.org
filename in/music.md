@@ -2,8 +2,9 @@
 title: "Music"
 ---
 
-Sometimes I like to play piano, and sometimes that even sounds decent. Here are
-some of the improvisations I liked:
+Improvisations
+--------------
 
+- [Jungle Jam](music/jungle_jam.md) on 2025-06-15
 - [Descent](music/descent.md) on 2025-05-25
 - [Dissociation](music/dissociation.md) on 2025-05-20

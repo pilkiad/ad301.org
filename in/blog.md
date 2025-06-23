@@ -2,4 +2,4 @@
 title: "Blog"
 ---
 
-Due to an unfortunate chain of events, these pages were lost.
+- [Naive Code: Comment System](blog/comment_system.md) on 2025-06-15
